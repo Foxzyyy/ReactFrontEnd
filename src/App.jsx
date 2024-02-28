@@ -15,7 +15,7 @@ function App() {
         <Hello key={index} name={data.name} messge={data.message} />
       ))}
 
-      <Contact email="s6506021621063@email.kmutnb.ac.th" phone ="0822400314"/>
+      <Contact email="sonyeonnisn@email.com" phone ="0822400314"/>
     </div>
   );
 }

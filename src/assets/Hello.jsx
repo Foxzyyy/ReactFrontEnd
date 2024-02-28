@@ -8,10 +8,14 @@ const Hello = ({ message, name}) => {
         </div>
     );
 };
-import propTypes from 'prop-types';
-Hello.propTypes = {
-    message: PropType.string.isRequired,
-    name: PropType.string.isRequired,
-};
-
 export default Hello;
+
+import PropTypes from 'prop-types';
+Hello.propTypes = {
+    message: PropTypes.string.isRequired,
+    name: PropTypes.string.isRequired
+};
+Hello.defaultProps = {
+    name: "User",
+    message: "How r u love?"
+};
